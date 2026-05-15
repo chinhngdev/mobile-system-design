@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git commit *)",
+      "Bash(git add *)",
+      "WebFetch(domain:docs.anthropic.com)",
+      "WebSearch",
+      "Bash(git -C \"/Users/chinh/Library/Mobile Documents/com~apple~CloudDocs/Obsidian Vault\" status)",
+      "Bash(git -C \"/Users/chinh/Library/Mobile Documents/com~apple~CloudDocs/Obsidian Vault\" diff HEAD)",
+      "Bash(git -C \"/Users/chinh/Library/Mobile Documents/com~apple~CloudDocs/Obsidian Vault\" add \"Clippings/Shoes.md\")",
+      "Bash(git -C '/Users/chinh/Library/Mobile Documents/com~apple~CloudDocs/Obsidian Vault' commit -m ' *)",
+      "WebFetch(domain:code.claude.ai)"
+    ]
+  }
+}
